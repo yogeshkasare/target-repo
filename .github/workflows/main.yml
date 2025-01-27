@@ -1,0 +1,15 @@
+name: Receive Trigger from Another Repository
+
+on:
+  repository_dispatch:
+    types: [custom_event]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run a script
+        run: echo "Workflow triggered by Repository A"
