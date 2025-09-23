@@ -1,5 +1,5 @@
 public class DemoClass {
-    public static void sayHello() {
-        System.debug('Hello from Opsera dem hel0o!');
+    public static String getGreeting() {
+        return 'Hello from O  psera demo!';
     }
 }
