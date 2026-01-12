@@ -1,5 +1,7 @@
 public class DemoClass {
-    public static void sayHello() {
-        System.debug('Hello from Opsera demo!');
+    public static String getGreeting() {
+        return 'Hello from Opsera demo!';
     }
 }
+
+// test comment
