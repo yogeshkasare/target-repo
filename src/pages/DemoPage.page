@@ -1,0 +1,8 @@
+<apex:page controller="DemoPageController">
+    <h1>Welcome to Demo Apex Page</h1>
+    <p>This is a sample Visualforce page for testing retrieval.</p>
+    <apex:form >
+        <apex:inputText value="{!sampleText}" label="Enter Text:"/>
+        
+    </apex:form>
+</apex:page>
