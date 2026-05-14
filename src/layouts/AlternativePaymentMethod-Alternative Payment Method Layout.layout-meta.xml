@@ -3,7 +3,7 @@
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
+        <editHeading>true</editHeading> // comment //
         <label>Alternative Payment Method</label>
         <layoutColumns>
             <layoutItems>
