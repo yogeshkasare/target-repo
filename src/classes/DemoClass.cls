@@ -1,6 +1,6 @@
 public class DemoClass {
     public static void sayHello() {
-        // ❌ Hardcoded debug message (minor, but flagged in some scans)
+        // ❌ Hardcoded debug message (minor, but flagged in some s
         System.debug('Hello from Opsera demo!');
         
         // ❌ SOQL inside loop
