@@ -1,6 +1,6 @@
 public class HelloWorldClass {
     
-    // A simple method to print a messa
+    // A simple method to print a message
     public static void sayHello() {
         System.debug('Hello, Salesforce World!');
     }
