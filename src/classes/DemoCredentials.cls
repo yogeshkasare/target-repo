@@ -1,6 +1,6 @@
 public class DemoCredentials {
     public static void connect() {
-        // ❌ Hardcoded credentials repeated ~10 times
+        // ❌ Hardcoded credentials repeated ~10 times bb
         String key1 = 'SECRET-1';
         String key2 = 'SECRET-2';
         String key3 = 'SECRET-3';

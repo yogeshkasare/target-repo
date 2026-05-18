@@ -1,7 +1,7 @@
 public class DemoSafeLoop {
     public static void processAccounts(List<String> names) {
         for (String n : names) {
-            // ❌ Debug statement (violation)
+            // ❌ Debug statement (violation) new
             System.debug('Processing ' + n);
             
             try {
