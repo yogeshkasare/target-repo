@@ -4,7 +4,7 @@ public class DemoCatchBlocks {
             try {
                 Integer x = 100 / (i % 2);
             } catch (Exception e) {
-                // ❌ Empty catch block
+                // ❌ Empty catch 
             }
         }
     }
